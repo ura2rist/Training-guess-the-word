@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Угадай слово</title>
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/normalize.css">
+	</head>
+	<body>
+		<header class="header-page">
+			<form class="header-wrap" method="GET" action="/start.php">
+				<button id="start" class="header-button">Начать</button>
+				<button id="stop" class="header-button header-button-hide">Остановить</button>
+			</form>
+		</header>
+		<main>
+			<section class="game">
+				<form method="GET" action="/check.php" class="game-form game-form-hide">
+					<h2 class="message"></h2>
+					<p><span>Жизни:</span> <span id="hp"></span></p>
+					<p><span>Подсказка:</span> <span id="hint"></span></p>
+					<p><span>Ваши буквы:</span> <span id="letter"></span></p>
+					<label>Введите букву: <input type="text" name="letter" id="input-letter"></label>
+					<input type="submit" name="enter-letter" id="enter-letter">
+				</form>
+			</section>
+		</main>
+		<script type="text/javascript" src="script/script.js"></script>
+	</body>
+</html>

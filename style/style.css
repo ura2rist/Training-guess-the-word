@@ -1,0 +1,47 @@
+body,
+html{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #7e57c2;
+}
+
+.header-button-hide{
+
+}
+
+.header-button{
+	font-size: 16px;
+	border-radius: 10px;
+	padding: 5px 10px;
+	border: none;
+}
+
+.header-button:active{
+	background-color: gray;
+	color: white;
+}
+
+.header-page{
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.header-wrap{
+	text-align: center;
+}
+
+.game-form{
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+.header-button-hide{
+	display: none;
+}
+
+.game-form-hide{
+	display: none;
+}
